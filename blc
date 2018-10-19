@@ -1,0 +1,11 @@
+#!/bin/bash
+echo -e 'power on\n'
+sleep 1
+echo -e 'agent on\n'
+sleep 1
+echo -e 'default-agent\n'
+sleep 1
+echo -e 'scan on\n'
+sleep 2
+echo -e 'devices\n'
+sleep 3

@@ -1,0 +1,17 @@
+#!/bin/bash
+echo 'Initiating pairing....'
+NUM=$1
+devid=`sed "${NUM}q;d" devlist |  awk '{print $3}'`
+./cnct $devid | bluetoothctl
+python pypbap-master/pbapserver.py --address $devid --use-fs --rootdir test/data/phonebook_vfolder
+./cntcts $devid | python pypbap-master/pbapclient.py 2> temp
+cat temp | grep '^FN\|^TEL' > phonebook
+rm -r devlist
+rm -r devname
+rm -r temp
+grep '^FN:' phonebook | cut -c 4- > pbk
+sort pbk > contactname
+./filter
+rm -r pbk
+rm -r contactname
+mv filtered contactname

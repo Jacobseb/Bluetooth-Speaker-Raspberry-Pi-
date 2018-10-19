@@ -1,0 +1,14 @@
+#!/bin/bash
+echo $@
+str="$*"
+cat phonebook | grep "$str" -A1 | tail -n 1 | tail -c 12 >dialnum 
+echo "Within Script"
+cat dialnum
+cat dialnum | head -c 10 >num
+cat num
+NU=1
+de=`sed "${NU}q;d" num |  awk '{print $0}'`
+echo $de
+python ./ofono-1.18/test/dial-number $de
+rm -r dialnum
+rm -r num

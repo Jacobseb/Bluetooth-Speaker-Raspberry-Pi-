@@ -1,0 +1,47 @@
+  [0;4mUNIT                                                                                          LOAD   ACTIVE SUB       DESCRIPTION                                     [0m
+  [0;4mproc-sys-fs-binfmt_misc.automount                                                             loaded active waiting   Arbitrary Executable File Formats File System Automount Point[0m
+  sys-devices-platform-soc-3f201000.serial-tty-ttyAMA0.device                                   loaded active plugged   /sys/devices/platform/soc/3f201000.serial/tty/ttyAMA0
+  sys-devices-platform-soc-3f202000.mmc-mmc_host-mmc0-mmc0:aaaa-block-mmcblk0-mmcblk0p1.device  loaded active plugged   /sys/devices/platform/soc/3f202000.mmc/mmc_host/mmc0/mmc0:aaaa/block/mmcblk0/mmcblk0p1
+  sys-devices-platform-soc-3f202000.mmc-mmc_host-mmc0-mmc0:aaaa-block-mmcblk0-mmcblk0p2.device  loaded active plugged   /sys/devices/platform/soc/3f202000.mmc/mmc_host/mmc0/mmc0:aaaa/block/mmcblk0/mmcblk0p2
+  sys-devices-platform-soc-3f202000.mmc-mmc_host-mmc0-mmc0:aaaa-block-mmcblk0-mmcblk0p5.device  loaded active plugged   /sys/devices/platform/soc/3f202000.mmc/mmc_host/mmc0/mmc0:aaaa/block/mmcblk0/mmcblk0p5
+  sys-devices-platform-soc-3f202000.mmc-mmc_host-mmc0-mmc0:aaaa-block-mmcblk0-mmcblk0p6.device  loaded active plugged   /sys/devices/platform/soc/3f202000.mmc/mmc_host/mmc0/mmc0:aaaa/block/mmcblk0/mmcblk0p6
+  sys-devices-platform-soc-3f202000.mmc-mmc_host-mmc0-mmc0:aaaa-block-mmcblk0-mmcblk0p7.device  loaded active plugged   /sys/devices/platform/soc/3f202000.mmc/mmc_host/mmc0/mmc0:aaaa/block/mmcblk0/mmcblk0p7
+  sys-devices-platform-soc-3f202000.mmc-mmc_host-mmc0-mmc0:aaaa-block-mmcblk0.device            loaded active plugged   /sys/devices/platform/soc/3f202000.mmc/mmc_host/mmc0/mmc0:aaaa/block/mmcblk0
+  sys-devices-platform-soc-3f300000.mmc-mmc_host-mmc1-mmc1:0001-mmc1:0001:1-net-wlan0.device    loaded active plugged   /sys/devices/platform/soc/3f300000.mmc/mmc_host/mmc1/mmc1:0001/mmc1:0001:1/net/wlan0
+  sys-devices-platform-soc-3f980000.usb-usb1-1\x2d1-1\x2d1.1-1\x2d1.1:1.0-net-eth0.device       loaded active plugged   SMSC9512/9514 Fast Ethernet Adapter             
+  sys-devices-platform-soc-3f980000.usb-usb1-1\x2d1-1\x2d1.2-1\x2d1.2:1.0-bluetooth-hci0.device loaded active plugged   /sys/devices/platform/soc/3f980000.usb/usb1/1-1/1-1.2/1-1.2:1.0/bluetooth/hci0
+  sys-devices-platform-soc-soc:audio-bcm2835_alsa-sound-card1.device                            loaded active plugged   /sys/devices/platform/soc/soc:audio/bcm2835_alsa/sound/card1
+  sys-devices-virtual-block-ram0.device                                                         loaded active plugged   /sys/devices/virtual/block/ram0                 
+  sys-devices-virtual-block-ram1.device                                                         loaded active plugged   /sys/devices/virtual/block/ram1                 
+  sys-devices-virtual-block-ram10.device                                                        loaded active plugged   /sys/devices/virtual/block/ram10                
+  sys-devices-virtual-block-ram11.device                                                        loaded active plugged   /sys/devices/virtual/block/ram11                
+  sys-devices-virtual-block-ram12.device                                                        loaded active plugged   /sys/devices/virtual/block/ram12                
+  sys-devices-virtual-block-ram13.device                                                        loaded active plugged   /sys/devices/virtual/block/ram13                
+  sys-devices-virtual-block-ram14.device                                                        loaded active plugged   /sys/devices/virtual/block/ram14                
+  sys-devices-virtual-block-ram15.device                                                        loaded active plugged   /sys/devices/virtual/block/ram15                
+  sys-devices-virtual-block-ram2.device                                                         loaded active plugged   /sys/devices/virtual/block/ram2                 
+  sys-devices-virtual-block-ram3.device                                                         loaded active plugged   /sys/devices/virtual/block/ram3                 
+  sys-devices-virtual-block-ram4.device                                                         loaded active plugged   /sys/devices/virtual/block/ram4                 
+  sys-devices-virtual-block-ram5.device                                                         loaded active plugged   /sys/devices/virtual/block/ram5                 
+  sys-devices-virtual-block-ram6.device                                                         loaded active plugged   /sys/devices/virtual/block/ram6                 
+  sys-devices-virtual-block-ram7.device                                                         loaded active plugged   /sys/devices/virtual/block/ram7                 
+  sys-devices-virtual-block-ram8.device                                                         loaded active plugged   /sys/devices/virtual/block/ram8                 
+  sys-devices-virtual-block-ram9.device                                                         loaded active plugged   /sys/devices/virtual/block/ram9                 
+  sys-devices-virtual-misc-rfkill.device                                                        loaded active plugged   /sys/devices/virtual/misc/rfkill                
+  sys-devices-virtual-tty-ttyprintk.device                                                      loaded active plugged   /sys/devices/virtual/tty/ttyprintk              
+  sys-module-configfs.device                                                                    loaded active plugged   /sys/module/configfs                            
+  sys-module-fuse.device                                                                        loaded active plugged   /sys/module/fuse                                
+  sys-subsystem-bluetooth-devices-hci0.device                                                   loaded active plugged   /sys/subsystem/bluetooth/devices/hci0           
+  sys-subsystem-net-devices-eth0.device                                                         loaded active plugged   SMSC9512/9514 Fast Ethernet Adapter             
+  [0;4msys-subsystem-net-devices-wlan0.device                                                        loaded active plugged   /sys/subsystem/net/devices/wlan0                [0m
+  -.mount                                                                                       loaded active mounted   Root Mount                                      
+  boot.mount                                                                                    loaded active mounted   /boot                                           
+  dev-mqueue.mount                                                                              loaded active mounted   POSIX Message Queue File System                 
+  media-pi-SETTINGS1.mount                                                                      loaded active mounted   /media/pi/SETTINGS1                             
+  run-rpc_pipefs.mount                                                                          loaded active mounted   RPC Pipe File System                            
+  run-user-1000-gvfs.mount                                                                      loaded active mounted   /run/user/1000/gvfs                             
+  run-user-1000.mount                                                                           loaded active mounted   /run/user/1000                                  
+  sys-fs-fuse-connections.mount                                                                 loaded active mounted   FUSE Control File System                        
+  sys-kernel-config.mount                                                                       loaded active mounted   Configuration File System                       
+  [0;4msys-kernel-debug.mount                                                                        loaded active mounted   Debug File System                               [0m
+  systemd-ask-password-plymouth.path                            

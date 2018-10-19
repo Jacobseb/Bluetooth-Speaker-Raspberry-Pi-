@@ -1,0 +1,6 @@
+#!/bin/bash
+echo -e "connect $1\n"
+sleep 10
+#echo -e "pull_vcard_listing telecom/pb\n"
+#sleep 4
+echo -e "pull_phonebook telecom/pb\n"

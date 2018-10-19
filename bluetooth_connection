@@ -1,0 +1,6 @@
+#!/bin/bash
+./blc | bluetoothctl  | grep '^Device'| nl> devlist
+cat devlist
+awk '{print $4}' devlist > devname
+
+ 
